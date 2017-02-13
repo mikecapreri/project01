@@ -1,0 +1,299 @@
+#nav {
+  list-style-type: none;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  border: 2px solid black;
+  background-color: #E3BFBF;
+}
+
+a {
+  padding-left: 160px;
+  padding-right: 160px;
+}
+
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+img {
+  position: static;
+}
+
+#hover figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+#hover figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+figure {
+	width: 500px;
+	height: 400px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+
+#Order figure {
+  width: 280px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+
+#Order figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+
+
+#IDK {
+  border: 2px solid black;
+  padding: 10px;
+  background-color: #CFD3D4;
+  font-family: PT Serif;
+}
+
+#Pineapple {
+  border: 2px solid black;
+  padding: 10px;
+  background-color: #CFD3D4;
+  font-family: PT Serif;
+}
+
+#Grapes {
+  border: 2px solid black;
+  padding: 10px;
+  background-color: #CFD3D4;
+  font-family: PT Serif;
+  margin-top: 10px;
+}
+
+#Strawberry {
+  border: 2px solid black;
+  padding: 10px;
+  background-color: #CFD3D4;
+  font-family: PT Serif;
+}
+
+#Cherry {
+  border: 2px solid black;
+  padding: 10px;
+  background-color: #CFD3D4;
+  font-family: PT Serif;
+  margin-top: 10px;
+}
+
+#Apple {
+  border: 2px solid black;
+  padding: 10px;
+  background-color: #CFD3D4;
+  font-family: PT Serif;
+}
+
+#Blueberry {
+  border: 2px solid black;
+  padding: 10px;
+  background-color: #CFD3D4;
+  font-family: PT Serif;
+  margin-top: 10px;
+}
+
+#Mango {
+  border: 2px solid black;
+  padding: 10px;
+  background-color: #CFD3D4;
+  font-family: PT Serif;
+}
+
+#Peach {
+  border: 2px solid black;
+  padding: 10px;
+  background-color: #CFD3D4;
+  font-family: PT Serif;
+  margin-top: 10px;
+}
+
+#Pear {
+  border: 2px solid black;
+  padding: 10px;
+  background-color: #CFD3D4;
+  font-family: PT Serif;
+}
+
+#Order {
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#Full {
+  padding-bottom: 10px;
+}
+
+#essay {
+  border: 2px solid black;
+  padding: 10px;
+  background-color: #CFD3D4;
+  font-family: PT Serif;
+  margin: 5px;
+  margin-top: 10px;
+}
+
+#essay p {
+  max-width: 500px;
+  margin-left: 350px;
+}
+
+h1 {
+  font-family: 'Luckiest Guy', cursive;
+}
+
+h2 {
+  font-family: 'Luckiest Guy', cursive;
+  text-decoration: underline;
+}
+
+h3 {
+  font-family: 'Francois One', sans-serif;
+  text-decoration: underline;
+}
+
+a {
+  font-family: 'Francois One', sans-serif;
+}
+
+p {
+  font-family: 'EB Garamond', serif;
+  font-size: 20px;
+}
+
+#Animation {
+  width: 200px;
+  height: 200px;
+  background-color: coral;
+  animation: square-to-circle 2s .5s infinite cubic-bezier(1,.015,.295,1.225) alternate;
+}
+
+@keyframes square-to-circle {
+  0%  {
+    border-radius:0 0 0 0;
+    background:coral;
+    transform:rotate(0deg);
+  }
+  25%  {
+    border-radius:50% 0 0 0;
+    background:darksalmon;
+    transform:rotate(45deg);
+  }
+  50%  {
+    border-radius:50% 50% 0 0;
+    background:indianred;
+    transform:rotate(90deg);
+  }
+  75%  {
+    border-radius:50% 50% 50% 0;
+    background:lightcoral;
+    transform:rotate(135deg);
+  }
+  100% {
+    border-radius:50%;
+    background:darksalmon;
+    transform:rotate(180deg);
+  }
+}
+
+@-webkit-keyframes square-to-circle {
+  0%  {
+    border-radius:0 0 0 0;
+  }
+  25%  {
+    border-radius:50% 0 0 0;
+  }
+  50%  {
+    border-radius:50% 50% 0 0;
+  }
+  75%  {
+    border-radius:50% 50% 50% 0;
+  }
+  100% {
+    border-radius:50%;
+  }
+}
+@-o-keyframes square-to-circle {
+  0%  {
+    border-radius:0 0 0 0;
+  }
+  25%  {
+    border-radius:50% 0 0 0;
+  }
+  50%  {
+    border-radius:50% 50% 0 0;
+  }
+  75%  {
+    border-radius:50% 50% 50% 0;
+  }
+  100% {
+    border-radius:50%;
+  }
+}
+
+@-moz-keyframes square-to-circle {
+  0%  {
+    border-radius:0 0 0 0;
+  }
+  25%  {
+    border-radius:50% 0 0 0;
+  }
+  50%  {
+    border-radius:50% 50% 0 0;
+  }
+  75%  {
+    border-radius:50% 50% 50% 0;
+  }
+  100% {
+    border-radius:50%;
+  }
+}
+
+@-ms-keyframes square-to-circle {
+  0%  {
+    border-radius:0 0 0 0;
+  }
+  25%  {
+    border-radius:50% 0 0 0;
+  }
+  50%  {
+    border-radius:50% 50% 0 0;
+  }
+  75%  {
+    border-radius:50% 50% 50% 0;
+  }
+  100% {
+    border-radius:50%;
+  }
+}
